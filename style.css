@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+:root {
+    --mainbg: hsl(233, 47%, 7%);
+    --cardbg: hsl(244, 38%, 16%);
+    --mainaccent: hsl(277, 64%, 61%);
+}
+
+body {
+    font-size: 15px;
+}
