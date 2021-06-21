@@ -10,15 +10,38 @@
 
     <title>Frontend Mentor | Stats preview card component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-[color:var(--mainbg)]">
+<body class="bg-[color:var(--mainbg)] text-white">
 
-    <div class="bg-[color:var(--cardbg)] rounded-xl">
-        Get insights that help your business grow. Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <div class="bg-[color:var(--cardbg)] rounded-md mx-6 my-12 overflow-hidden">
+        <div class="relative h-auto w-full bg-[color:var(--mainaccent)] mb-4">
+            <img src="images\image-header-mobile.jpg" class="object-cover mix-blend-multiply" alt="">
+        </div>
+        <div class="px-4 py-6 text-center">
+            <div class="mb-10">
+                <h1 class="text-3xl font-bold mb-4"> Get <span class="text-[color:var(--mainaccent)]">insights</span> that help your business grow. </h1>
+                <p class="text-md opacity-75">
+                    Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+                </p>
+            </div>
+            <div class="text-centre">
+                <div class="mb-6">
+                    <h1 class="text-2xl font-bold mb-1">10k+</h1>
+                    <h4 class="text-xs uppercase opacity-60">companies</h4>
+                </div>
+                <div class="mb-6">
+                    <h1 class="text-2xl font-bold mb-1">314</h1>
+                    <h4 class="text-xs uppercase opacity-60">templates</h4>
+                </div>
+                <div class="mb-3">
+                    <h1 class="text-2xl font-bold mb-1">12M+</h1>
+                    <h4 class="text-xs uppercase opacity-60">queries</h4>
+                </div>
+            </div>
+        </div>
     </div>
 
 
