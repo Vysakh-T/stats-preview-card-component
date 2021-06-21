@@ -16,18 +16,18 @@
 
 <body class="bg-[color:var(--mainbg)] text-white">
 
-    <div class="bg-[color:var(--cardbg)] rounded-md mx-6 my-12 overflow-hidden">
-        <div class="relative h-auto w-full bg-[color:var(--mainaccent)] mb-4">
+    <div class="bg-[color:var(--cardbg)] rounded-md mx-6 my-12 overflow-hidden sm:flex sm:mx-28 sm:my-36">
+        <div class="relative h-auto bg-[color:var(--mainaccent)] mb-4 sm:hidden">
             <img src="images\image-header-mobile.jpg" class="object-cover mix-blend-multiply" alt="">
         </div>
-        <div class="px-4 py-6 text-center">
+        <div class="px-4 py-6 text-center sm:w-2/4 sm:mx-12 lg:mr-20 sm:text-left">
             <div class="mb-10">
-                <h1 class="text-3xl font-bold mb-4"> Get <span class="text-[color:var(--mainaccent)]">insights</span> that help your business grow. </h1>
+                <h1 class="text-3xl font-bold mb-4 sm:mt-12 sm:mb-10"> Get <span class="text-[color:var(--mainaccent)]">insights</span> that help your business grow. </h1>
                 <p class="text-md opacity-75">
                     Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
                 </p>
             </div>
-            <div class="text-centre">
+            <div class="text-centre sm:flex sm:text-left gap-6 md:gap-12 lg:gap-24">
                 <div class="mb-6">
                     <h1 class="text-2xl font-bold mb-1">10k+</h1>
                     <h4 class="text-xs uppercase opacity-60">companies</h4>
@@ -41,6 +41,9 @@
                     <h4 class="text-xs uppercase opacity-60">queries</h4>
                 </div>
             </div>
+        </div>
+        <div class="bg-[color:var(--mainaccent)] hidden sm:block">
+            <img src="images\image-header-desktop.jpg" class="object-cover mix-blend-multiply h-full w-auto" alt="">
         </div>
     </div>
 
